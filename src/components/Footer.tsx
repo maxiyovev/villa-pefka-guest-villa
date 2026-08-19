@@ -29,7 +29,7 @@ export function Footer() {
                 { label: "The Villa", href: "#villa" },
                 { label: "Guest Reviews", href: "#reviews" },
                 { label: "Location", href: "#location" },
-                { label: "Book Now", href: "https://www.booking.com/hotel/gr/villa-pefka-nikiti1.html" },
+                { label: "Reserve Now", href: "#reservation" },
               ].map((link) => (
                 <li key={link.label}>
                   <a
