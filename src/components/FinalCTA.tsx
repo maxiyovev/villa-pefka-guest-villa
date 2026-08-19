@@ -26,9 +26,7 @@ export function FinalCTA() {
         {/* Booking CTA */}
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <a
-            href="https://www.booking.com/hotel/gr/villa-pefka-nikiti1.html"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#reservation"
             className="group inline-flex items-center gap-3 rounded-full bg-white px-10 py-5 text-base font-semibold text-deep-blue shadow-2xl transition-all duration-300 hover:bg-gold-light hover:shadow-gold/25 hover:scale-105"
           >
             <svg
@@ -44,7 +42,7 @@ export function FinalCTA() {
                 d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5"
               />
             </svg>
-            Book Your Stay
+            Check Availability
             <span aria-hidden="true">→</span>
           </a>
         </div>

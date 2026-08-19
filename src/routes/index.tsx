@@ -5,6 +5,7 @@ import { Testimonials } from "~/components/Testimonials";
 import { Gallery } from "~/components/Gallery";
 import { VillaFeatures } from "~/components/VillaFeatures";
 import { Location } from "~/components/Location";
+import { Reservation } from "~/components/Reservation";
 import { FinalCTA } from "~/components/FinalCTA";
 import { Footer } from "~/components/Footer";
 
@@ -21,6 +22,7 @@ function Home() {
       <Gallery />
       <VillaFeatures />
       <Location />
+      <Reservation />
       <FinalCTA />
       <Footer />
     </div>

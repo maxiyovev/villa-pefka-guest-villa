@@ -47,12 +47,10 @@ export function Hero() {
           style={{ animationDelay: "0.8s" }}
         >
           <a
-            href="https://www.booking.com/hotel/gr/villa-pefka-nikiti1.html"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#reservation"
             className="inline-flex items-center gap-2 rounded-full bg-terracotta px-8 py-4 text-base font-semibold text-white shadow-xl transition-all duration-300 hover:bg-terracotta-dark hover:shadow-2xl hover:scale-105"
           >
-            Book Your Stay
+            Reserve Now
             <span aria-hidden="true">→</span>
           </a>
           <a
